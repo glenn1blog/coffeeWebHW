@@ -1,0 +1,116 @@
+/* 所有元素 */
+* {
+    margin: 0;
+    padding: 0;
+    /* 邊框 bd */
+    /* border: 0.5px solid rgba(255,0,0,0.3); */
+    color : #fff;
+    /* 字體 ff */
+    font-family: 微軟正黑體;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+body,html {
+    /* 高度 h100p */
+    height: 100%;
+    /* 背景圖片 bgi */
+    background-image: url("https://images.unsplash.com/photo-1463320726281-696a485928c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    scroll-behavior: smooth;
+}
+a {
+    /* a 底線 td */
+    text-decoration: none;
+}
+
+/* div 區塊 */
+#box {
+    width: 800px;
+    margin: 45px auto 45px auto;
+    padding: 50px;
+    background: rgba(0,0,0,0.5);
+}
+
+/* 導覽列 */
+nav a {
+    /* 邊框底線 bdb */
+    border-bottom: 4px solid #fff;
+    /* 內距 p */
+    padding: 2px;
+    transition: 0.3s;
+}
+nav a:hover {
+    font-weight: bold;
+}
+#logo {
+    /* 字體大小 fz2e */
+    font-size: 3em;
+}
+nav div {
+    /* 浮動: 向右 flr */
+    float: right;
+    margin: 5px;
+}
+nav div a{
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+/* 內容 */
+#container {
+    /* 寬度 w50p */
+    width: 50%;
+    margin-top: 30px;
+}
+#container h1 {
+    font-size: 50px;
+}
+#container p {
+    margin: 20px 0 100px 0;
+}
+hr {
+    margin-top: 35px;
+    border: 2px solid #fff;
+}
+
+#products div{
+    height: 200px;
+    margin-top: 15px; 
+}
+.img-r{
+    width: 200px;
+    float:right;
+}
+.p-r{
+    float:right;
+}
+.img-l{
+    width: 200px;
+}
+#story {
+    margin: 50px 0; 
+    height: 45px;
+}
+#story p{
+    text-align: center;
+    line-height: 45px;
+}
+#contact {
+    margin: 50px 0; 
+    height: 45px;
+}
+
+/* 頁尾 */
+footer {
+    /* 固定 psf */
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 45px;
+    /* teal */
+    text-align: center;
+    /* lh60px */
+    line-height: 45px;
+}
